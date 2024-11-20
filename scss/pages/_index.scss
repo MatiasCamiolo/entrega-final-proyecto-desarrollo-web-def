@@ -1,0 +1,37 @@
+.texto-nuestra-tienda {
+  color: black;
+  font-weight: bold;
+}
+
+.img-prod {
+  width: 40%; // La imagen ocupa el 40% de ancho del contenedor
+  height: 300px; // Todas las imágenes de los productos tienen una altura fija
+  object-fit: cover; // Se recortan las imágenes por igual
+  margin: 0 auto; // Centra la imagen en su contenedor
+}
+
+.subtitulo-prod {
+  background-color: $color-subtitle-background;
+  border: solid black;
+}
+.fondo-articulo {
+  background-color: black;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Sección de beneficios
+.beneficios-section {
+  border: solid black;
+  background-color: $color-subtitle-background;
+  margin-bottom: 30px;
+
+  ul {
+    li {
+      list-style: none;
+      border: solid black 1px;
+      color: black;
+    }
+  }
+}

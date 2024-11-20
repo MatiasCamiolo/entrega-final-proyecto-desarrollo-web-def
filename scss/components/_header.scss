@@ -1,0 +1,58 @@
+header {
+  background-color: $color-header-bg;
+  padding: $padding-small 0;
+  height: 150px;
+
+  .navbar-toggler-icon {
+    background-color: $color-text !important;
+  }
+
+  h1 {
+    color: $color-text;
+    font-weight: bold;
+  }
+
+  .navbar {
+    box-shadow: $box-shadow;
+
+    .navbar-nav {
+      margin-left: auto;
+
+      .nav-item {
+        margin: 0 $margin-medium;
+
+        .nav-link {
+          display: inline-block;
+          padding: $padding-small $padding-medium;
+          margin: $margin-small;
+          border-radius: $border-radius;
+          background-color: $color-background;
+          color: $color-text;
+          text-decoration: none;
+          transition: background-color 0.3s, color 0.3s;
+
+          &:hover {
+            background-color: $color-hover;
+            color: $color-background;
+          }
+
+          &.active {
+            color: $color-background;
+          }
+        }
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $color-dropdown-bg;
+
+    .dropdown-item {
+      color: $color-text;
+
+      &:hover {
+        background-color: $color-dropdown-item-hover;
+      }
+    }
+  }
+}

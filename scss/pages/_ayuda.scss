@@ -1,0 +1,17 @@
+.contenedor-ayuda {
+  border: solid 1px $color-border;
+  .div-ayuda-html {
+    background-color: $color-background;
+    color: $color-text;
+    font-weight: bold;
+  }
+  .div-preg-frec {
+    ul {
+      background-color: $color-ul-background;
+    }
+  }
+}
+
+.imagen-ayuda {
+  max-height: 400px;
+}

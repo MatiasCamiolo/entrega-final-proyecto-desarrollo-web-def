@@ -1,0 +1,14 @@
+.seccion-tienda {
+  background-color: black;
+  border: solid black;
+}
+.div-de-cada-articulo {
+  color: white;
+}
+
+.img-prod {
+  width: 40%; // La imagen ocupa el 40% de ancho del contenedor
+  height: 300px; // Todas las imágenes de los productos tienen una altura fija
+  object-fit: cover; // Se recortan las imágenes por igual
+  margin: 0 auto; // Centra la imagen en su contenedor
+}

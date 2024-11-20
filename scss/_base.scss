@@ -1,0 +1,250 @@
+// Definición de variables
+$color-background: #343a40;
+$color-text: #ffffff;
+$color-header-bg: rgba(0, 0, 0, 0.747);
+$color-hover: green;
+$color-dropdown-bg: green;
+$color-dropdown-item-hover: rgba(0, 0, 0, 0.103);
+$color-border: black;
+$color-ul-background: white;
+$color-subtitulo-background: rgb(77, 175, 11);
+$padding-small: 10px;
+$padding-medium: 15px;
+$margin-small: 5px;
+$margin-medium: 12px;
+$margin-top-subtitle: 16px;
+$border-radius: 5px;
+$box-shadow: 0 2px 5px rgb(0, 0, 0);
+$body-background: slategrey;
+
+.logo-pc {
+  width: 20%;
+  height: 10%;
+  padding: 5px;
+}
+
+// Estilos del header
+
+header {
+  background-color: $color-header-bg;
+  padding: $padding-small 0;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .navbar-toggler-icon {
+    background-color: $color-text !important;
+  }
+
+  h1 {
+    color: $color-text;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .navbar {
+    box-shadow: $box-shadow;
+
+    .navbar-nav {
+      margin-left: auto;
+
+      .nav-item {
+        margin: 0 $margin-medium;
+
+        .nav-link {
+          display: inline-block;
+          padding: $padding-small $padding-medium;
+          margin: $margin-small;
+          border-radius: $border-radius;
+          background-color: $color-background;
+          color: $color-text;
+          text-decoration: none;
+          transition: background-color 0.3s, color 0.3s;
+
+          &:hover {
+            background-color: $color-hover;
+            color: $color-background;
+          }
+
+          &.active {
+            color: $color-background;
+          }
+        }
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $color-dropdown-bg;
+
+    .dropdown-item {
+      color: $color-text;
+
+      &:hover {
+        background-color: $color-dropdown-item-hover;
+      }
+    }
+  }
+}
+
+// Estilos del body
+body {
+  background-color: $body-background;
+  font-family: Arial, Helvetica, sans-serif;
+
+  h2 {
+    border: solid black 2px;
+    background-color: $color-subtitulo-background;
+    color: black;
+  }
+
+  .texto-nuestra-tienda {
+    color: black;
+    font-weight: bold;
+  }
+  .container-de-productoss {
+    width: 100%; /* Asegúrate de que el contenedor ocupe el 100% del ancho disponible */
+    max-width: 1200px; /* Ajusta este valor según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno */
+    /* No cambies los colores de Bootstrap, pero puedes agregar un fondo si es necesario */
+    background-color: transparent; /* Mantiene el fondo de Bootstrap */
+    border-radius: 0.5rem; /* Bordes redondeados, opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+
+    .subtitulo-prod {
+      background-color: $color-subtitulo-background;
+      border: solid black;
+    }
+  }
+  .productos-tienda {
+    width: 20%;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+  .fondo-articulo {
+    background-color: black;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .btn-dark {
+    &:hover {
+      background-color: #279b3a;
+      transform: scale(1.05);
+    }
+  }
+
+  .img-prod {
+    width: 200%;
+    height: 200px; // Todas las imágenes de los productos tienen una altura fija
+    object-fit: cover; // Se recortan las imágenes por igual
+    margin: 0 auto; // Centra la imagen en su contenedor
+  }
+
+  // Sección de beneficios
+  .beneficios-section {
+    border: solid black;
+    background-color: $color-subtitulo-background;
+    margin-bottom: 30px;
+
+    ul {
+      li {
+        list-style: none;
+        border: solid black 1px;
+        color: black;
+      }
+    }
+  }
+
+  // Estilos para el contenedor de ayuda
+  .contenedor-ayuda {
+    border: solid 1px $color-border;
+
+    .div-ayuda-html {
+      background-color: $color-background;
+      color: $color-text;
+      font-weight: bold;
+    }
+
+    .div-preg-frec {
+      ul {
+        background-color: $color-ul-background;
+      }
+    }
+  }
+
+  .imagen-ayuda {
+    max-height: 400px;
+  }
+
+  // Sección de tienda
+  .seccion-tienda {
+    background-color: black;
+    border: solid black;
+  }
+
+  .div-de-cada-articulo {
+    color: white;
+  }
+
+  .fondo-nosotros {
+    width: 100%;
+    max-height: 450px;
+    margin-bottom: 12px;
+    overflow: hidden; /* Asegura que no se desborde el contenido */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para la animación */
+
+    .fondo-nosotros img {
+      width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+      height: auto; /* Mantiene la proporción de la imagen */
+      object-fit: cover; /* Cubre el área del contenedor sin distorsionar la imagen */
+    }
+  }
+  .parrafo-nosotros-p {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  // Sección de testimonios de clientes
+  .seccion-testimonios-clientes {
+    border: solid 6px $color-border;
+    background-color: rgba(245, 245, 245, 0.233);
+
+    .subtitulo-testimonios {
+      background-color: $color-subtitulo-background;
+      width: 100%;
+      margin-top: $margin-top-subtitle;
+    }
+  }
+
+  .formulario-testimonios {
+    background-color: rgba(245, 245, 245, 0.233);
+    width: 70%;
+    max-width: 900px;
+    padding: 20px;
+    border: 3px solid black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+footer {
+  border-top: solid;
+  background-color: $color-subtitulo-background;
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}

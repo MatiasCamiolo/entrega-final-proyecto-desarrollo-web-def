@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg border-bottom text-center">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+                <img class="logo-pc img-fluid" src="../img/logo-pc.jpg" alt="Logo de la tienda de PC">
+            </a>
+            <h1 class="mx-3 text-center flex-grow-1">NextGen Gaming Gear</h1>
+            <!-- Título visible en todas las pantallas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto"> <!-- Menú alineado a la izquierda -->
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./ayuda.html">Ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="./testimonios.html">Testimonios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Redes sociales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.instagram.com/nvidia/?hl=es"
+                                    target="_blank">Instagram</a></li>
+                            <li><a class="dropdown-item" href="https://x.com/nvidia" target="_blank">X</a></li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com/NVIDIA"
+                                    target="_blank">Facebook</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+    <section class="container my-5 text-center">
+        <h2>¡Explora Nuestro Catálogo!</h2>
+        <p class="fs-4 text-black">En NextGen Gaming Gear, nos dedicamos a ofrecerte los mejores componentes de PC
+            para que
+            lleves tu
+            experiencia de
+            juego al siguiente nivel. Desde placas madres hasta fuentes de poder, tenemos todo lo que necesitas para
+            construir tu PC ideal.</p>
+        <p class="fs-5 text-black">¡No dudes en contactarnos si tienes alguna pregunta o necesitas asesoramiento!
+            Estamos aquí
+            para ayudarte
+            a
+            encontrar los productos perfectos para ti.</p>
+    </section>
+
+
+    <section class="text-center seccion-tienda container my-5">
+        <h2 class="text-center ">Productos</h2>
+        <ul class="nav nav-tabs bg-dark">
+            <li class="nav-item">
+                <a class="nav-link text-success active" data-bs-toggle="tab" href="#placa-madre">Placas Madres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success" data-bs-toggle="tab" href="#fuente">Fuentes de Poder</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success" data-bs-toggle="tab" href="#ram">Memorias RAM</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-success" data-bs-toggle="tab" href="#ssd">SSD</a>
+            </li>
+        </ul>
+        <section class="tab-content mt-3">
+            <div class="tab-pane fade show active" id="placa-madre">
+                <div class="row">
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/placa-madre-asus-rog-strix-B550.jpg"
+                            alt="Placa Madre ASUS ROG Strix B550-F Gaming" class="img-fluid productos-tienda mb-3">
+                        <h5>Placa Madre ASUS ROG Strix B550-F Gaming</h5>
+                        <p>Precio: $199.99</p>
+                        <p>Placa madre de alto rendimiento para gaming y overclocking.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/msi-b450-tomahawk.jpg" alt="Placa Madre MSI B450 TOMAHAWK MAX"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Placa Madre MSI B450 TOMAHAWK MAX</h5>
+                        <p>Precio: $129.99</p>
+                        <p>Ideal para construir tu PC de juegos con un presupuesto.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/placa-madre-aorus-b550.jpg" alt="Placa Madre Gigabyte B550 AORUS Elite"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Placa Madre Gigabyte B550 AORUS Elite</h5>
+                        <p>Precio: $179.99</p>
+                        <p>Placa madre con características avanzadas para gamers.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                </div>
+            </div>
+            <section class="tab-pane fade" id="fuente">
+                <div class="row">
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/corsair-rm750x.jpg" alt="Fuente de Poder Corsair RM750x"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Fuente de Poder Corsair RM750x</h5>
+                        <p>Precio: $129.99</p>
+                        <p>Fuente de alimentación eficiente y silenciosa.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/fuente-evga-600.jpg" alt="Fuente de Poder EVGA 600 W1"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Fuente de Poder EVGA 600 W1</h5>
+                        <p>Precio: $59.99</p>
+                        <p>Fuente de alimentación confiable y asequible.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                    <article class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/fuente-thermaltake-500w.jpg" alt="Fuente de Poder Thermaltake Smart 500W"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Fuente de Poder Thermaltake Smart 500W</h5>
+                        <p>Precio: $49. 99</p>
+                        <p>Buena opción para sistemas de gama media.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </article>
+                </div>
+            </section>
+            <section class="tab-pane fade" id="ram">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ram-corsair-vengeance-lpx-16gb.jpg"
+                            alt="Memoria RAM Corsair Vengeance LPX 16GB" class="img-fluid productos-tienda mb-3">
+                        <h5>Memoria RAM Corsair Vengeance LPX 16GB</h5>
+                        <p>Precio: $79.99</p>
+                        <p>Memoria RAM de alta velocidad para mejorar el rendimiento.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ram-g-skill-ripjaws-16gb.jpg" alt="Memoria RAM G.Skill Ripjaws V 16GB"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Memoria RAM G.Skill Ripjaws V 16GB</h5>
+                        <p>Precio: $74.99</p>
+                        <p>Memoria RAM de alta calidad para overclocking.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ram-kingston-hyperx-fury-16gb.jpg" alt="Memoria RAM Kingston HyperX Fury 16 GB"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Memoria RAM Kingston HyperX Fury 16GB</h5>
+                        <p>Precio: $69.99</p>
+                        <p>Memoria RAM de alta velocidad para gaming.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="tab-pane fade" id="ssd">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ssd-crucial-mx500.jpg" alt="Crucial MX500"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Crucial MX500</h5>
+                        <p>Precio: $49.99</p>
+                        <p>SSD rápido y asequible para mejorar el rendimiento.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ssd-adata-xpg-sx8200.jpg" alt="ADATA XPG SX8200 Pro"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>ADATA XPG SX8200 Pro</h5>
+                        <p>Precio: $69.99</p>
+                        <p>SSD de alta velocidad para aplicaciones exigentes.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column div-de-cada-articulo">
+                        <img src="../img/ssd-kingston-a2000.jpg" alt="Kingston A2000"
+                            class="img-fluid productos-tienda mb-3">
+                        <h5>Kingston A2000</h5>
+                        <p>Precio: $59.99</p>
+                        <p>SSD rápido y confiable para uso general.</p>
+                        <button class="btn btn-dark mt-auto">Comprar</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <div class="text-center mb-4">
+        <h4 class="d-inline-block fs-2 text-white bg-dark p-2">Periféricos</h4>
+    </div>
+
+
+    <section class="container mt-5 bg-dark">
+        <h5 class="text-center mb-4 fs-3 subtitulo-prod">Auriculares</h5>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Producto 1 -->
+            <section class="col">
+                <article class="card h-100 fondo-articulo">
+                    <img src="../img/logitech-g733.jpg" class="img-fluid img-prod" alt="Auriculares L-G-Series-G733">
+                    <div class="card-body d-flex flex-column div-de-cada-articulo">
+                        <h5 class="text-center ">Auriculares gamer inalámbricos Logitech G Series G733
+                            negro con luz rgb LED</h5>
+                        <div class="mt-auto">
+                            <p class=" text-center"> Auriculares inalámbricos con sonido envolvente,
+                                iluminación RGB personalizable y micrófono desmontable. Diseñados para
+                                comodidad durante largas sesiones de juego.</p>
+                            <p class="text-center fw-bold">$299.99</p>
+                            <button class="btn btn-dark w-100">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <!-- Producto 2 -->
+            <section class="col">
+                <article class="card h-100 fondo-articulo">
+                    <img src="../img/corsair-void-elite.jpg" class="img-fluid img-prod"
+                        alt="Tarjeta Gráfica RTX 4070 Super">
+                    <div class="card-body d-flex flex-column div-de-cada-articulo">
+                        <h5 class="text-center">Auriculares gamer inalámbricos Corsair Void Elite
+                            Wireless VOID RGB Elite Wireless</h5>
+                        <div class="mt-auto">
+                            <p class="text-center">Cuentan con iluminación RGB personalizable, un
+                                micrófono con cancelación de ruido y almohadillas de espuma viscoelástica
+                                para máxima comodidad. Hasta 16 horas de duración de batería y compatibles con PC y
+                                consolas. </p>
+                            <p class="text-center fw-bold">$359.99</p>
+                            <button class="btn btn-dark w-100">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </section>
+    </section>
+    <section class="container mt-5 bg-dark">
+        <h5 class="text-center mb-4 fs-3 subtitulo-prod">Mouses</h5>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Producto 1 -->
+            <div class="col">
+                <article class="card h-100 fondo-articulo">
+                    <img src="../img/logitech-g-series-lightspeed-g-502.jpg" class="img-fluid img-prod"
+                        alt="Logitech G Series Lightspeed G502 Negro">
+                    <div class="card-body d-flex flex-column div-de-cada-articulo">
+                        <h5 class="text-center">Logitech G Series Lightspeed G502 Negro</h5>
+                        <div class="mt-auto">
+                            <p class="text-center">Mouse inalámbrico con sensor HERO 25K (hasta 25,600
+                                DPI), 11 botones programables, tecnología LIGHTSPEED para conexión
+                                rápida y personalización RGB LIGHTSYNC. Compatible con carga inalámbrica POWERPLAY
+                                con autonomía de hasta 140 horas</p>
+                            <p class="text-center fw-bold">$299.99</p>
+                            <button class="btn btn-dark w-100">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col">
+                <article class="card h-100 fondo-articulo">
+                    <img src="../img/logitech-g-203.jpg" class="img-fluid img-prod"
+                        alt="Mouse Gamer Logitech Series G203 Lightsync Negro">
+                    <div class="card-body d-flex flex-column div-de-cada-articulo">
+                        <h5 class="text-center">Mouse Gamer Logitech Series G203 Lightsync Negro</h5>
+                        <div class="mt-auto">
+                            <p class="text-center">El Logitech G203 es un mouse gaming ligero con sensor
+                                de 200-8,000 DPI, respuesta de 1 ms, seis botones programables y
+                                RGB LIGHTSYNC personalizable mediante Logitech G HUB</p>
+                            <p class="text-center fw-bold">$39.99</p>
+                            <button class="btn btn-dark w-100">Comprar</button>
+                        </div>
+                    </div>
+                </article>
+    </section>
+
+
+
+
+
+
+
+    <div class="text-center mt-4 mb-4">
+        <p class="fs-5">¿Quieres compartir tu experiencia? ¡Déjanos tu testimonio!</p>
+        <a href="./ayuda.html" class="btn btn-dark">Déjanos tu Testimonio</a>
+    </div>
+
+
+
+
+
+    </main>
+
+    <footer class="text-black text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <p>Email: contacto@nextgengaminggear.com</p>
+                    <p>Teléfono: +854 452 6391</p>
+                </div>
+                <div class="col-md-4 mb-3 text-black">
+                    <h5>Síguenos</h5>
+                    <ul>
+                        <a href="https://www.instagram.com/nvidia/?hl=es" target="_blank"
+                            class="text-black mx-2">Instagram</a>
+                        <a href="https://www.facebook.com/NVIDIA" target="_blank" class="text-black mx-2">Facebook</a>
+                        <a href="https://x.com/nvidia" target="_blank" class="text-black mx-2">X</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-3">
+                <p>&copy; 2024 NextGen Gaming Gear. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
