@@ -1,14 +1,3 @@
-.container-de-productoss {
-  width: 100%; /* Asegúrate de que el contenedor ocupe el 100% del ancho disponible */
-  max-width: 1200px; /* Ajusta este valor según sea necesario */
-  margin: 0 auto; /* Centra el contenedor */
-  padding: 20px; /* Espaciado interno */
-  /* No cambies los colores de Bootstrap, pero puedes agregar un fondo si es necesario */
-  background-color: transparent; /* Mantiene el fondo de Bootstrap */
-  border-radius: 0.5rem; /* Bordes redondeados, opcional */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
-}
-
 @import "./base";
 
 @import "./components/botones";
