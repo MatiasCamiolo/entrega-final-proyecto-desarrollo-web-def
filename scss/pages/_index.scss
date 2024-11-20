@@ -3,6 +3,27 @@
   font-weight: bold;
 }
 
+
+
+.container-de-productoss {
+  width: 100%;
+  /* Asegura de que el contenedor ocupe el 100% del ancho disponible */
+  max-width: 1200px;
+  /* Ajusta este valor según sea necesario */
+  margin: 0 auto;
+  /* Centra el contenedor */
+  padding: 20px;
+  /* Espaciado interno */
+  /* No cambies los colores de Bootstrap, pero puedes agregar un fondo si es necesario */
+  background-color: transparent;
+  /* Mantiene el fondo de Bootstrap */
+  border-radius: 0.5rem;
+  /* Bordes redondeados, opcional */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra opcional */
+}
+
+
 .img-prod {
   width: 40%; // La imagen ocupa el 40% de ancho del contenedor
   height: 300px; // Todas las imágenes de los productos tienen una altura fija
@@ -14,8 +35,10 @@
   background-color: $color-subtitle-background;
   border: solid black;
 }
+
 .fondo-articulo {
   background-color: black;
+
   &:hover {
     transform: scale(1.05);
   }
